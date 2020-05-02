@@ -1,7 +1,10 @@
 import App from './App';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
 const hello = (name) => {
   console.log(`hello ${name}`);
 };
 
-App();
+ReactDOM.render(<App />, document.getElementById('root'));
